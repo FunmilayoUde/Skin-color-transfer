@@ -1,0 +1,52 @@
+/* General styling */
+body {
+    min-height: 100vh;
+    background-color: #F5F5DC; /* Light beige background */
+  }
+  
+  h1 {
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  .file-upload label {
+    /* Adjust spacing if needed, as Bootstrap already styles labels */
+  }
+  
+  #transfer-button {
+    /* Adjust spacing if needed, as Bootstrap already styles buttons */
+  }
+  
+  .result-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  #result-image {
+    max-width: 500px;
+  }
+  
+  /* Additional customizations */
+  #source-image-container,
+  #target-image-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .wrapper {
+    min-height: 100vh;
+    background-color: #F5F5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("backgroundimage.jpg");
+    background-repeat: no-repeat; /* Optional: prevents image tiling */
+    background-size: cover; /* Optional: stretches image to fill container */
+  }
+  body {
+    zoom: 1.1; /* Increase size by 10% */
+  }
+  
+  
+  
+  
